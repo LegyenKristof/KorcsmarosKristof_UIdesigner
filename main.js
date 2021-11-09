@@ -13,6 +13,12 @@ function init(){
 
 function mintaszovegValtozas(e){
     kimenet.innerHTML = e.target.value;
+    if(e.target.value.trim() == ""){
+        document.getElementById("hibauzenet").style.display = "block";
+    }
+    else{
+        document.getElementById("hibauzenet").style.display = "none";
+    }
 }
 
 function betumeretValtozas(e){
@@ -36,4 +42,5 @@ function alaphelyzet(){
     kimenet.style.backgroundColor = "#FFFFFF";
     kimenet.style.color = "#000000";
     kimenet.style.fontSize = "12pt";
+    document.getElementById("hibauzenet").style.display = "none";
 }
