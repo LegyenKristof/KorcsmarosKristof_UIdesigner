@@ -9,7 +9,7 @@
     font-size: 12pt;
 }
 
-#inputok{
+.hatteres{
     background-color: lightgray;
     padding: 10px;
     border-radius: 10px;
@@ -28,6 +28,6 @@ p{
     padding: 0;
 }
 
-.col-sm-6 div{
+.col-lg-6 div{
     margin: 10px;
 }
